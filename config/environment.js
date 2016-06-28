@@ -1,6 +1,6 @@
 /* jshint node: true */
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   var ENV = {
     modulePrefix: 'maximum-plaid-gallery',
     environment: environment,
@@ -10,13 +10,21 @@ module.exports = function(environment) {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      }
+      },
     },
 
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+
+    },
+
+    firebase: {
+      apiKey: 'AIzaSyBY8YjekxOzsMTyCo1dkIwJq0-xK3Qx_Eo',
+      authDomain: 'maximum-plaid.firebaseapp.com',
+      databaseURL: 'https://maximum-plaid.firebaseio.com',
+      storageBucket: 'maximum-plaid.appspot.com',
+    },
   };
 
   if (environment === 'development') {
