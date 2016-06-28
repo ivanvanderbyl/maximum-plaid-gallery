@@ -1,7 +1,7 @@
 {
   "name": "maximum-plaid-gallery",
   "version": "0.0.0",
-  "description": "Small description for maximum-plaid-gallery goes here",
+  "description": "Examples for maximum-plaid",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -16,7 +16,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Ivan Vanderbyl",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
@@ -37,7 +37,12 @@
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
     "ember-load-initializers": "^0.5.0",
+    "ember-math-helpers": "1.0.3",
     "ember-resolver": "^2.0.3",
-    "loader.js": "^4.0.0"
+    "loader.js": "^4.0.0",
+    "ember-suave": "2.0.1",
+    "ember-sublime": "0.0.4",
+    "emberfire": "^1.6.6",
+    "maximum-plaid": "0.1.3"
   }
 }
